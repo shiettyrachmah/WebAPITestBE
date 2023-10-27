@@ -1,0 +1,38 @@
+[
+  {
+    "ID": 1,
+    "Title": "Pengabdi Setan 2 Comunion",
+    "Description": "Pengabdi Setan adalah sebuah film horor Indonesia tahun 2022, yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017",
+    "Rating": 7.0,
+    "Image": "",
+    "Created_At": "2022-08-01 10:56:31",
+    "Updated_At": "2022-08-01 10:56:31"
+  },
+  {
+    "ID": 2,
+    "Title": "Pengabdi Setan",
+    "Description": "Pengabdi Setan adalah sebuah film horor Indonesia tahun 2022, yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017",
+    "Rating": 8.0,
+    "Image": "",
+    "Created_At": "2022-08-01 10:56:31",
+    "Updated_At": "2022-08-01 10:56:31"
+  },
+  {
+    "ID": 3,
+    "Title": "Wakaf",
+    "Description": "Wakaf. Sebuah film yang menceritakan perebutan kepemilikan tanah wakaf",
+    "Rating": 8.6,
+    "Image": "",
+    "Created_At": "2022-08-01 10:56:31",
+    "Updated_At": "2022-08-01 10:56:31"
+  },
+  {
+    "ID": 4,
+    "Title": "Killers of the flower moon",
+    "Description": "Sebuah film dengan kisah kejahatan barat yang epik, di mana cinta sejati melintasi jalan dengan pengkhianatan yang tak terkatakan.",
+    "Rating": 8.5,
+    "Image": "",
+    "Created_At": "2022-08-01 10:56:31",
+    "Updated_At": "2022-08-01 10:56:31"
+  }
+]
