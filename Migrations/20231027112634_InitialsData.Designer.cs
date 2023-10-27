@@ -12,7 +12,7 @@ using WebAPITestBE.DBContext;
 namespace WebAPITestBE.Migrations
 {
     [DbContext(typeof(ApplicationDBContext))]
-    [Migration("20231027105323_InitialsData")]
+    [Migration("20231027112634_InitialsData")]
     partial class InitialsData
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

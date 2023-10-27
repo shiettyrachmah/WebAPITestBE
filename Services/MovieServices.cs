@@ -49,14 +49,14 @@ namespace WebAPITestBE.Services
 
         }
 
-        public Task<List<Movie>> GetAllMovie()
+        public async Task<List<Movie>> GetAllMovie()
         {
-            return _repo.GetAllMovie();
+            return await _repo.GetAllMovie();
         }
 
-        public Task<Movie?> GetFilteredMovieByID(int id)
+        public async Task<Movie?> GetFilteredMovieByID(int id)
         {
-            return _repo.GetFilteredMovieByID(id);
+            return await _repo.GetFilteredMovieByID(id);
         }
 
         public async Task<Movie> UpdateMovie(int id, JsonPatchDocument movie)

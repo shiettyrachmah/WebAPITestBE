@@ -26,9 +26,9 @@ namespace WebAPITestBE.Controllers
             try
             {
                 var resultData = await _services.GetAllMovie();
-                if (resultData == null)
+                if (resultData.Count == 0)
                 {
-                    return NotFound(new { message = "Data Not Found" });
+                    return NotFound(new { message = "Data Empty" });
                 }
 
                 return Ok(resultData);

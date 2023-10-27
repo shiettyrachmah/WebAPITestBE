@@ -33,10 +33,10 @@ namespace WebAPITestBE.Migrations
                 columns: new[] { "ID", "CreatedAt", "Description", "Image", "Rating", "Title", "UpdatedAt" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Pengabdi Setan adalah sebuah film horor Indonesia tahun 2022, yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017", "", 7f, "Pengabdi Setan 2 Comunion", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 2, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Pengabdi Setan adalah sebuah film horor Indonesia tahun 2022, yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017", "", 8f, "Pengabdi Setan", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 3, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Wakaf. Sebuah film yang menceritakan perebutan kepemilikan tanah wakaf", "", 8.6f, "Wakaf", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) },
-                    { 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Sebuah film dengan kisah kejahatan barat yang epik, di mana cinta sejati melintasi jalan dengan pengkhianatan yang tak terkatakan.", "", 8.5f, "Killers of the flower moon", new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified) }
+                    { 1,new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified), "Pengabdi Setan adalah sebuah film horor Indonesia tahun 2022, yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017", "", 7f, "Pengabdi Setan 2 Comunion",new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified) },
+                    { 2,new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified), "Pengabdi Setan adalah sebuah film horor Indonesia tahun 2022, yang disutradarai dan ditulis oleh Joko Anwar sebagai sekuel dari film tahun 2017", "", 8f, "Pengabdi Setan",new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified) },
+                    { 3,new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified), "Wakaf. Sebuah film yang menceritakan perebutan kepemilikan tanah wakaf", "", 8.6f, "Wakaf",new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified) },
+                    { 4,new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified), "Sebuah film dengan kisah kejahatan barat yang epik, di mana cinta sejati melintasi jalan dengan pengkhianatan yang tak terkatakan.", "", 8.5f, "Killers of the flower moon",new DateTime(2022, 8, 1, 10, 56, 31, DateTimeKind.Unspecified) }
                 });
         }
 
